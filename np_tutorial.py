@@ -1,5 +1,4 @@
 import numpy as np
-"""
 ##################### Arrays ########################
 #       shape -> tuple giving size of array         #
 a = np.array([1, 2, 3])
@@ -173,7 +172,6 @@ print(v.T)  # [1 2 3]
 ######################################################
 
 
-"""
 
 ################## BroadCasting  #####################
 #ex1:
@@ -205,8 +203,6 @@ print((x.T + w).T)
 
 ## if you want to know more about numpy, see:        #
 #  https://numpy.org/doc/stable/reference/           #
-"""
-"""
 ############# Image Operations (briefly) #############
 from scipy.misc import imread, imsave, imresize
 
